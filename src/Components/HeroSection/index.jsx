@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "./file/amir.pdf";
+import resume from "./file/AmirReza-Madandar.pdf";
 import {
   AboutMeText,
   FollowMeContainer,
@@ -31,7 +31,7 @@ const Hero = ({ id, img, toggel }) => {
     const fileUrl = resume;
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "amir.pdf";
+    link.download = "AmirReza-Madandar.pdf";
 
     document.body.appendChild(link);
     link.click();
@@ -88,7 +88,7 @@ const Hero = ({ id, img, toggel }) => {
             <Icon2 href="https://t.me/Amirreza-madandar" target="blank">
               <FaTelegram />
             </Icon2>
-            <Icon3>
+            <Icon3 href="https://github.com/AmirReza-MadanDar" target="blank">
               <FaGithub />
             </Icon3>
             <Icon4

@@ -78,8 +78,12 @@ export const NavMenuLink = styled(LinkS)`
   height: 100%;
   font-size: 1.1rem;
   padding: 0 12px;
-
+  transition: all 0.3s ease-in-out;
   &.active {
+    color: #1ab394;
+  }
+
+  &:hover {
     color: #1ab394;
   }
 `;

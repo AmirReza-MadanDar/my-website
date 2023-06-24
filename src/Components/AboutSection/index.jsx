@@ -31,13 +31,13 @@ import {
   MySkillsChartcolContainer,
   SkillsChartNameContainer,
 } from "./AboutElements";
-import resume from "./file/amir.pdf";
+import resume from "./file/AmirReza-Madandar.pdf";
 const About = ({ id, img, toggel }) => {
   const handleDownload = () => {
     const fileUrl = resume;
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "amir.pdf";
+    link.download = "AmirReza-Madandar.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
